@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Github Orgs</title>
+</head>
+
+<body>
+    <header>
+        <h1>github orgs</h1>
+    </header>
+
+    <main>
+        <form id='search-form'>
+            <label for='search'></label>
+            <input id='search-all' type='text' name='search' placeholder='github user name' />
+            <button type='submit'>gimme those stats</button>
+        </form>
+
+
+        <div class='namedisplay'></div>
+        <div class='orgs-list'>
+        </div>
+
+
+
+
+    </main>
+    <script id='template' type='text/x-handlebars-template'>
+        <div class='org'>
+            <img src='' {{image}} ''>
+            <h2>{{title}}</h2>
+        </div>
+    </script>
+    <script src="js/vendors/jquery-3.1.1.min.js "></script>
+    <script src="js/vendors/handlebars-v4.0.5.js "></script>
+    <script src="js/app.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    header {
+        margin: 1% auto;
+        font-size: 3rem;
+        font-family: $headerFont;
+    }
+
+    #search-form {
+        margin: 1% auto;
+        padding: 1%;
+
+        input {
+            margin: 1% auto;
+            border: none;
+            outline: none;
+            border-radius: 3%;
+            height: 30px;
+            width: 200px;
+            font-size: 0.8rem;
+        }
+
+        button {
+            border: none;
+            height: 30px;
+        }
+    }
+
+    .template-style {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border: 1px solid #FFF;
+        width: 40%;
+        padding: 1%;
+        background: #ddd;
+
+        img {
+            padding: 1%;
+            height: 40px;
+            width: 40px;
+        }
+
+        h2 {}
+    }
+}

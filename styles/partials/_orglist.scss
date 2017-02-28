@@ -1,0 +1,22 @@
+.namedisplay {
+    font-family: $headerFont;
+    font-size: 2rem;
+    background: #f7f7f7;
+}
+
+.org-template {
+    padding: 1%;
+    margin: 1% auto;
+    background: #f7f7f7;
+    width: 40%;
+    border-radius: 5%;
+
+    img {
+        height: 35px;
+        width: 35px;
+    }
+
+    span {
+        line-height: 1;
+    }
+}
